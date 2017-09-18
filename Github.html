@@ -6,6 +6,7 @@
     <title>Github Practice</title>
 
     <style>
+    @media (min-width: 600px) {
       body {
         font-family: helvetica;
         color: #333;
@@ -84,6 +85,7 @@
       	background-color: lightgrey;
       	color: #333;
       	padding: 15px;
+      	margin: 5px;
       	border: 1px solid lightgrey;
       	border-radius: 15px;
       	width: 200px;
@@ -100,6 +102,113 @@
       	border-top: 1px solid white;
 
       }
+  }
+
+  @media (max-width: 599px) {
+
+  	body {
+        font-family: helvetica;
+        color: #333;
+        text-align: center;
+        margin: 0px;
+      }
+
+      header {
+
+      	border-bottom: 1px solid lightgrey;
+
+
+      }
+
+      header p {
+
+      	font-size: 1.08em;
+
+      }
+
+      .navigation {
+
+      	text-align: center;
+
+      	margin: 20px 45px 0px 0px;
+      	padding: 0px;
+
+      }
+
+      .navigation li {
+
+      	display: inline;
+
+      	margin: 10px;
+
+      	color: #444;
+
+      	border-bottom:1px solid #333;
+
+      	cursor: pointer;
+
+      	transition: .3s;
+
+      }
+
+      .navigation li:hover {
+
+      	color: black;
+
+      	border-bottom:1px solid #333;
+
+      }
+
+      .description {
+
+      	background-color: lightgrey;
+      	padding: 25px;
+      	margin: 50px;
+      	border: 1px solid lightgrey;
+      	border-radius: 20px;
+
+      }
+
+      .description p {
+
+      	font-size: .8em;
+
+      }
+
+      .itemContainer {
+
+      	display: flex;
+      	justify-content: space-around;
+      	flex-wrap: wrap;
+      	padding: 25px;
+      	background-color: #333;
+
+      }
+
+      .item {
+
+      	background-color: lightgrey;
+      	color: #333;
+      	padding: 15px;
+      	margin: 5px;
+      	border: 1px solid lightgrey;
+      	border-radius: 15px;
+      	width: 200px;
+
+      }
+
+      footer {
+
+      	background-color: #333;
+      	text-align: center;
+      	color: white;
+      	margin: 0px;
+      	padding: 20px;
+      	border-top: 1px solid white;
+
+      }
+
+  }
 
     </style>
 
@@ -130,7 +239,7 @@
 
     	<h2>Article Header</h2>
     	<p>
-    		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed vulputate urna, ut imperdiet nunc. Vivamus ornare dapibus pellentesque. Praesent ultrices turpis sed urna malesuada dictum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce lacinia ut magna nec eleifend. In non libero nisi. Duis pharetra at lorem rhoncus ultricies. Nulla malesuada pulvinar magna eu convallis. Proin lectus justo, egestas sit amet ante vitae, placerat facilisis est. Mauris augue libero, semper ut congue at, sollicitudin nec augue. Vivamus laoreet, purus eget mollis dapibus, sapien neque faucibus nunc, ac suscipit lorem ligula quis quam. Mauris interdum enim justo, in maximus enim aliquet sed.
+    		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed vulputate urna, ut imperdiet nunc. Vivamus ornare dapibus pellentesque. Praesent ultrices turpis sed urna malesuada dictum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce lacinia ut magna nec eleifend. In non libero nisi. Duis pharetra at lorem rhoncus ultricies. Nulla malesuada pulvinar magna eu convallis. 
     	</p>
 
     </div>
@@ -139,7 +248,7 @@
 
     	<h2>Article Header</h2>
     	<p>
-    		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed vulputate urna, ut imperdiet nunc. Vivamus ornare dapibus pellentesque. Praesent ultrices turpis sed urna malesuada dictum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce lacinia ut magna nec eleifend. In non libero nisi. Duis pharetra at lorem rhoncus ultricies. Nulla malesuada pulvinar magna eu convallis. Proin lectus justo, egestas sit amet ante vitae, placerat facilisis est. Mauris augue libero, semper ut congue at, sollicitudin nec augue. Vivamus laoreet, purus eget mollis dapibus, sapien neque faucibus nunc, ac suscipit lorem ligula quis quam. Mauris interdum enim justo, in maximus enim aliquet sed.
+    		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed vulputate urna, ut imperdiet nunc. Vivamus ornare dapibus pellentesque. Praesent ultrices turpis sed urna malesuada dictum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce lacinia ut magna nec eleifend. In non libero nisi. Duis pharetra at lorem rhoncus ultricies. Nulla malesuada pulvinar magna eu convallis. 
     	</p>
 
     </div>
@@ -148,7 +257,7 @@
 
     	<h2>Article Header</h2>
     	<p>
-    		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed vulputate urna, ut imperdiet nunc. Vivamus ornare dapibus pellentesque. Praesent ultrices turpis sed urna malesuada dictum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce lacinia ut magna nec eleifend. In non libero nisi. Duis pharetra at lorem rhoncus ultricies. Nulla malesuada pulvinar magna eu convallis. Proin lectus justo, egestas sit amet ante vitae, placerat facilisis est. Mauris augue libero, semper ut congue at, sollicitudin nec augue. Vivamus laoreet, purus eget mollis dapibus, sapien neque faucibus nunc, ac suscipit lorem ligula quis quam. Mauris interdum enim justo, in maximus enim aliquet sed.
+    		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed vulputate urna, ut imperdiet nunc. Vivamus ornare dapibus pellentesque. Praesent ultrices turpis sed urna malesuada dictum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce lacinia ut magna nec eleifend. In non libero nisi. Duis pharetra at lorem rhoncus ultricies. Nulla malesuada pulvinar magna eu convallis. 
     	</p>
 
     </div>
