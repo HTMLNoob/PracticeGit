@@ -10,3 +10,5 @@ This is a changelog of things I added to this repository.
 	Added two more articles and added an appropriate heading to every article 9/17/2017 HTMLNoob
 
 	Added navigation, modified title heading and its description. 9/17/2017 HTMLNoob
+
+	Completely redid the layout of the articles and I added a date to each article. 9/17/2017 HTMLNoob
