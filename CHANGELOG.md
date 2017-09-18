@@ -11,4 +11,4 @@ This is a changelog of things I added to this repository.
 
 	Added navigation, modified title heading and its description. 9/17/2017 HTMLNoob
 
-	Completely redid the layout of the articles and I added a date to each article. 9/17/2017 HTMLNoob
+	Re-centered the navigation, modified the media queries. 9/17/2017
