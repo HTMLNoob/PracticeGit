@@ -3,6 +3,9 @@
 
   <head>
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>Github Practice</title>
 
     <style>
@@ -113,36 +116,48 @@
 
       }
 
-      .itemContainer {
-
+      footer {
+      	
       	display: flex;
       	justify-content: space-around;
-      	flex-wrap: wrap;
-      	padding: 25px;
-      	background-color: #333;
+      	font-size: 2.5em;
+
+      	border-top: 1px solid lightgrey;
 
       }
 
-      .item {
+      footer ul {
 
-      	background-color: lightgrey;
-      	color: #333;
-      	padding: 15px;
-      	margin: 5px;
-      	border: 1px solid lightgrey;
-      	border-radius: 15px;
-      	width: 200px;
+      	display: flex;
+
+      	margin-right: 60px;
+      	list-style-type: none;
 
       }
 
-      footer {
+      footer li {
 
-      	background-color: #333;
-      	text-align: center;
-      	color: white;
-      	margin: 0px;
+      	width: 50px;
+
+      	margin: 0px 50px 0px 50px;
       	padding: 20px;
-      	border-top: 1px solid white;
+
+      	color: white;
+
+      	background-color: #333;
+      	border: 1px solid #333;
+      	border-radius: 100%;
+
+      	transition: .5s;
+      	cursor: pointer;
+
+      }
+
+      footer li:hover {
+
+      	color: #333;
+
+      	background-color: white;
 
       }
   
@@ -224,36 +239,48 @@
 
       }
 
-      .itemContainer {
-
-      	display: flex;
-      	justify-content: space-around;
-      	flex-wrap: wrap;
-      	padding: 25px;
-      	background-color: #333;
-
-      }
-
-      .item {
-
-      	background-color: lightgrey;
-      	color: #333;
-      	padding: 15px;
-      	margin: 5px;
-      	border: 1px solid lightgrey;
-      	border-radius: 15px;
-      	width: 200px;
-
-      }
+      
 
       footer {
+      	
+      	display: flex;
+      	justify-content: space-around;
+      	font-size: 2.5em;
+
+      	border-top: 1px solid lightgrey;
+
+      }
+
+      footer ul {
+
+      	display: flex;
+
+      	margin-right: 60px;
+      	list-style-type: none;
+
+      }
+
+      footer li {
+
+      	
+
+      	margin: 0px 50px 0px 50px;
+      	padding: 20px;
+
+      	color: white;
 
       	background-color: #333;
-      	text-align: center;
-      	color: white;
-      	margin: 0px;
-      	padding: 20px;
-      	border-top: 1px solid white;
+      	border: 1px solid #333;
+      	border-radius: 100%;
+      	transition: .5s;
+
+      }
+
+      footer li:hover {
+
+      	color: #333;
+
+      	background-color: white;
 
       }
 
@@ -310,29 +337,18 @@
 
     </div>
 
-    <article class="itemContainer">
-
-	    <div class="item">
-	    	<h1>Heading</h1>
-	    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-	    </div>
-
-	     <div class="item">
-	    	<h1>Heading</h1>
-	    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-	    </div>
-
-	     <div class="item">
-	    	<h1>Heading</h1>
-	    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-	    </div>
-
-    </article>
-
     <footer>
 
-    <h3>Footer Stuff</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <ul>
+
+    	<li><i class="fa fa-github" aria-hidden="true"></i></li>
+
+    	<li><i class="fa fa-free-code-camp" aria-hidden="true"></i></li>
+
+    	<li><i class="fa fa-stack-overflow" aria-hidden="true"></i></li>
+
+    </ul>
+    
 
     </footer>
 
